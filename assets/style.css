@@ -19,6 +19,10 @@ body {
 	background-color: #f2f7f8;
 }
 
+#darkmode {
+  margin-bottom: 1rem;
+}
+
 #drop-cap {
 	font-size: 140px;
 	font-family: cursive;
@@ -31,4 +35,9 @@ a, a:visited {
 
 a:hover {
   color: red;  
+}
+
+body.dark {
+  background: #0D0D0D;
+  color: #FFFFFF;
 }
